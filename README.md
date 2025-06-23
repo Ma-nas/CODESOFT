@@ -11,7 +11,6 @@ This repository contains all the tasks completed as part of the CodSoft Machine 
 - Task 3: Customer Churn Prediction
 
 Each task folder contains:
-- Dataset
 - Code
 - Output visualizations
 - Results summary

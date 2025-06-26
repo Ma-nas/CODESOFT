@@ -4,9 +4,6 @@ This repository contains all the tasks completed as part of the CodSoft Machine 
 
 ## Tasks
 - Task 1: Credit Card Fraud Detection
-  Dataset:
-🔗 [Kaggle – Credit Card Fraud Detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
-
 - Task 2: Spam SMS Detection
 - Task 3: Customer Churn Prediction
 

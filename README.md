@@ -21,7 +21,18 @@ Task 1:
 This project focuses on detecting fraudulent credit card transactions using machine learning algorithms — **Logistic Regression** and **Random Forest Classifier**. The dataset is highly imbalanced, and we handle this using **SMOTE (Synthetic Minority Oversampling Technique)** to improve model performance.
 
 ---
+# Workflow
 
+1. Load the dataset using Pandas.
+2. Check class imbalance in the target (`is_fraud`).
+3. Preprocess the data (scaling/normalization).
+4. Use SMOTE to balance fraud and non-fraud classes.
+5. Split data into training and testing sets.
+6. Train Logistic Regression and Random Forest models.
+7. Evaluate using confusion matrix, classification report, and ROC AUC score.
+8. Compare models based on fraud recall and accuracy.
+9. Visualize confusion matrix using Seaborn.
+   
 ## 📁 Dataset
 - (https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
@@ -45,11 +56,22 @@ This project focuses on detecting fraudulent credit card transactions using mach
 | F1-score (Fraud)   | 0.15                | 0.22              |
 | ROC AUC Score      | 0.8558              | 0.7797            |
 
-task 2:
+Task 2:
 # SMS Spam Detection using Machine Learning
 
 This project focuses on classifying SMS messages as either **SPAM** or **HAM** using Natural Language Processing (NLP) and a machine learning classification model.
 
+#  Workflow
+
+1. Load the `spam.csv` dataset.
+2. Clean and preprocess the messages (lowercase, remove stopwords).
+3. Convert text into numerical form using TF-IDF.
+4. Split data into train and test sets.
+5. Train the model (Naive Bayes or Logistic Regression).
+6. Make predictions on test messages.
+7. Evaluate using confusion matrix and classification report.
+8. Test on sample SMS inputs for spam/ham prediction.
+   
 #Dataset
 https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 - Dataset used: spam.csv
@@ -117,7 +139,7 @@ The dataset used is **Churn_Modelling.csv**, which contains customer details lik
 
 ---
 
-## ⚙️ Libraries Used
+# Libraries Used
 
 - pandas
 - numpy
@@ -128,7 +150,7 @@ The dataset used is **Churn_Modelling.csv**, which contains customer details lik
 
 ---
 
-## Workflow
+#Workflow
 
 1. Load and preview the dataset
 2. Check for missing values
